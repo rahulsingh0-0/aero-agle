@@ -5550,11 +5550,11 @@ textarea.form-control {
 }
 
 .blog-item:hover .blog__img img {
-  -webkit-transform: scale(1.1);
+  /* -webkit-transform: scale(1.1);
   -moz-transform: scale(1.1);
   -ms-transform: scale(1.1);
   -o-transform: scale(1.1);
-  transform: scale(1.1);
+  transform: scale(1.1); */
 }
 
 .blog-item .blog__content {
@@ -7449,4 +7449,9 @@ textarea.form-control {
 }
 video::-webkit-media-controls-fullscreen-button,video::-webkit-media-controls-timeline,video::-webkit-media-controls-current-time-display,video::-webkit-media-controls-time-remaining-display ,video::-webkit-media-controls-toggle-closed-captions-button,video::-webkit-media-controls-volume-slider  {
     display: none;
+}
+@media(max-width:600px){
+  .team-info{
+    justify-content: center !important;
+  }
 }

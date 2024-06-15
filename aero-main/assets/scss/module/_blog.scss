@@ -16,7 +16,7 @@
     }
 
     &:hover .blog__img img {
-        @include prefix(transform, scale(1.1), webkit moz ms o);
+        // @include prefix(transform, scale(1.1), webkit moz ms o);
     }
 
     .blog__content {
