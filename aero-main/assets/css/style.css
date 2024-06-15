@@ -4398,7 +4398,7 @@ textarea.form-control {
 }
 
 .fancybox-item:hover .fancybox__title {
-  color: #319400;
+  /* color: #319400; */
 }
 
 .fancybox-layout2 .fancybox-item .fancybox__title {
@@ -7362,7 +7362,7 @@ textarea.form-control {
 /*# sourceMappingURL=style.css.map */
 
 .work-adv {
-  cursor: pointer;
+  /* cursor: pointer; */
 
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
